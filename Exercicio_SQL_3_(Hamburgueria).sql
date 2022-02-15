@@ -9,6 +9,17 @@ INSERT INTO tipos_hamburguer(tipo_hbg) VALUES
 (''),
 
 
+SELECT * FROM pao
+
+CREATE TABLE pao(
+	id_pao SERIAL PRIMARY KEY,
+	nome_pao VARCHAR(30) NOT NULL
+);
+
+INSERT INTO pao(nome_pao) VALUES
+(''),
+
+
 SELECT * FROM frios;
 
 CREATE TABLE frios(
@@ -33,21 +44,27 @@ INSERT INTO complementos(nome_comp) VALUES
 
 SELECT * FROM hamburguer;
 
+DROP TABLE hamburguer;
+
 CREATE TABLE hamburguer(
-	id_hamburguer SERIAL PRIMARY KEY,
-	id_tp_hbg INTEGER,
-	FOREIGN KEY (id_tp_hbg) REFERENCES tipos_hamburguer(id_tp_hbg),
-	id_frios_1 INTEGER,
-	FOREIGN KEY (id_frios_1) REFERENCES frios(id_frios),
-	id_frios_2 INTEGER,
-	FOREIGN KEY (id_frios_2) REFERENCES frios(id_frios),
-	id_comp_1 INTEGER,
-	FOREIGN KEY (id_comp_1) REFERENCES complementos(id_comp),
-	id_comp_2 INTEGER,
-	FOREIGN KEY (id_comp_2) REFERENCES complementos(id_comp),
-	id_comp_3 INTEGER,
-	FOREIGN KEY (id_comp_3) REFERENCES complementos(id_comp)
+	id_hamburguer SERIAL PRIMARY KEY	
 );
+
+ALTER TABLE hamburguer ADD id_pao INTEGER NOT NULL;
+ALTER TABLE hamburguer ADD id_tp_hbg INTEGER NOT NULL;
+ALTER TABLE hamburguer ADD id_frios_1 INTEGER NOT NULL;
+ALTER TABLE hamburguer ADD id_frios_2 INTEGER NOT NULL;
+ALTER TABLE hamburguer ADD id_comp_1 INTEGER NOT NULL;
+ALTER TABLE hamburguer ADD id_comp_2 INTEGER NOT NULL;
+ALTER TABLE hamburguer ADD id_comp_3 INTEGER NOT NULL;
+
+ALTER TABLE hamburguer ADD FOREIGN KEY (id_pao) REFERENCES pao(id_pao);
+ALTER TABLE hamburguer ADD FOREIGN KEY (id_tp_hbg) REFERENCES tipos_hamburguer(id_tp_hbg);
+ALTER TABLE hamburguer ADD FOREIGN KEY (id_frios_1) REFERENCES frios(id_frios);
+ALTER TABLE hamburguer ADD FOREIGN KEY (id_frios_2) REFERENCES frios(id_frios);
+ALTER TABLE hamburguer ADD FOREIGN KEY (id_comp_1) REFERENCES complementos(id_comp);
+ALTER TABLE hamburguer ADD FOREIGN KEY (id_comp_2) REFERENCES complementos(id_comp);
+ALTER TABLE hamburguer ADD FOREIGN KEY (id_comp_3) REFERENCES complementos(id_comp);
 
 INSERT INTO hamburguer(id_tp_hbg,id_frios_1,id_frios_2,id_comp_1,id_comp_2,id_comp_3) VALUES
 ('','','','','',''),
