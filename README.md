@@ -6,7 +6,7 @@
 <hr>
 <h2 align="center"> Languages/Technologies used: </h2>
 <div style="display: inline_block" align="center">
-  <img align="center" alt="HTML" height="40" width="40" padding-right="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="HTML" height="40" width="40" style="padding-right: 30;" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="CSS" height="40" width="40" padding-right="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"> 
   <img align="center" alt="TypeScript" height="40" width="40" padding-right="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg">
   <img align="center" alt="Angular" height="40" width="40" padding-right="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg">
