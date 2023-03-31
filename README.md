@@ -5,7 +5,12 @@
 <h3 align="center"> A Front-End application was developed for the Lab Clothing Collection project where the CRUD related to Collections and Models were developed, among other features. </h3>
 <hr>
 <h2 align="center"> Languages/Technologies used: </h2>
-[![My Skills](https://skillicons.dev/icons?i=html,css,angular,ts)](https://skillicons.dev)
+<div style="display: inline_block" align="center">
+  <img align="center" alt="HTML" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="CSS" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"> 
+  <img align="center" alt="TypeScript" height="40" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
+  <img align="center" alt="Angular" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg">
+</div> 
 <hr>
 <h3 align="center">***********🔧 INSTRUÇÕES 🔧***********</h3>
 <h4 align="center">Como executar a aplicação</h4>
