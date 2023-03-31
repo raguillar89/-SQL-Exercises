@@ -1,8 +1,8 @@
 <h1 align="center"> 🚜 LAB Clothing Collection Project 🚜</h1>
 <hr>
 <h1 align="center"> About the project </h1>
-<h2 align="center"> 💻 Evaluative project of the front-end module of the course DevInHouse | Audaces 💻</h2>
-<h2 align="center"> A Front-End application was developed for the Lab Clothing Collection project where the CRUD related to Collections and Models were developed, among other features. </h2>
+<h2 align="center"> 💻 Evaluative project of the front-end module of the course DevInHouse | Audaces 💻 </h2>
+<h3 align="center"> A Front-End application was developed for the Lab Clothing Collection project where the CRUD related to Collections and Models were developed, among other features. </h3>
 <hr>
 <h2 align="center"> Languages/Technologies used: </h2>
 [![My Skills](https://skillicons.dev/icons?i=html,css,angular,ts)](https://skillicons.dev)
